@@ -1,0 +1,28 @@
+@mixin icon {
+  vertical-align: middle;
+
+  &:hover {
+    height: 300px;
+  }
+}
+
+.contents {
+  border: 1px solid #0C0C0C;
+  text-align: center;
+  height: 400px;
+  padding-top: 50px; 
+
+  .content {
+    display: inline-block;
+
+    .hand {
+      @include icon;
+    }
+
+    .icon {
+      display: none;
+      margin: 0 100px;
+    }
+  }
+
+}

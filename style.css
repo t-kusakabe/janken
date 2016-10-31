@@ -1,3 +1,16 @@
-
+.contents {
+  border: 1px solid #0C0C0C;
+  text-align: center;
+  height: 400px;
+  padding-top: 50px; }
+  .contents .content {
+    display: inline-block; }
+    .contents .content .hand {
+      vertical-align: middle; }
+      .contents .content .hand:hover {
+        height: 300px; }
+    .contents .content .icon {
+      display: none;
+      margin: 0 100px; }
 
 /*# sourceMappingURL=style.css.map */
