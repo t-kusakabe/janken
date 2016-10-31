@@ -25,7 +25,7 @@
             <img class="hand" src="/images/pa-.png"><br>
             <input class="icon" type="radio" name="icon" value="2">
           </label>
-        </div>
+        </div><br>
         <input type="submit" value="じゃんけんぽんっ！">
       </form>
     </div>

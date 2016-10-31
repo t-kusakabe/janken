@@ -25,4 +25,22 @@
     }
   }
 
+  #player {
+    display: inline;
+  }
+
+  #cpu {
+    display: inline;
+  }
+}
+
+#result {
+  padding-top: 100px; 
+  text-align: center;
+
+  a {
+    color:#F50009;
+    text-decoration: none;
+    font-size: 50px;
+  }
 }

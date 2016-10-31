@@ -12,5 +12,17 @@
     .contents .content .icon {
       display: none;
       margin: 0 100px; }
+  .contents #player {
+    display: inline; }
+  .contents #cpu {
+    display: inline; }
+
+#result {
+  padding-top: 100px;
+  text-align: center; }
+  #result a {
+    color: #F50009;
+    text-decoration: none;
+    font-size: 50px; }
 
 /*# sourceMappingURL=style.css.map */
