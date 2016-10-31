@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title></title>
+    <title>じゃんけんゲーム</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
