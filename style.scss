@@ -1,9 +1,9 @@
 @mixin icon {
   vertical-align: middle;
+}
 
-  &:hover {
-    height: 300px;
-  }
+.title {
+  width: 30vw;
 }
 
 .contents {
@@ -12,19 +12,27 @@
   height: 400px;
   padding-top: 50px; 
 
-  .content {
-    display: inline-block;
+  .flame {
+    height: 300px;
 
-    .hand {
-      @include icon;
-    }
+    .content {
+      display: inline-block;
 
-    .icon {
-      display: none;
-      margin: 0 100px;
+      .hand {
+        @include icon;
+      }
+
+      .emphasis {
+        height: 300px;
+      }
+
+      .icon {
+        display: none;
+        padding: 0 100px;
+      }
     }
   }
-
+  
   #player {
     display: inline;
   }
@@ -38,9 +46,13 @@
   padding-top: 100px; 
   text-align: center;
 
-  a {
+  h1 {
     color:#F50009;
-    text-decoration: none;
     font-size: 50px;
+  }
+
+  a {
+    color: #3400F9;
+    font-size: 30px;
   }
 }

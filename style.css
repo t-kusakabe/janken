@@ -1,17 +1,22 @@
+.title {
+  width: 30vw; }
+
 .contents {
   border: 1px solid #0C0C0C;
   text-align: center;
   height: 400px;
   padding-top: 50px; }
-  .contents .content {
-    display: inline-block; }
-    .contents .content .hand {
-      vertical-align: middle; }
-      .contents .content .hand:hover {
+  .contents .flame {
+    height: 300px; }
+    .contents .flame .content {
+      display: inline-block; }
+      .contents .flame .content .hand {
+        vertical-align: middle; }
+      .contents .flame .content .emphasis {
         height: 300px; }
-    .contents .content .icon {
-      display: none;
-      margin: 0 100px; }
+      .contents .flame .content .icon {
+        display: none;
+        padding: 0 100px; }
   .contents #player {
     display: inline; }
   .contents #cpu {
@@ -20,9 +25,11 @@
 #result {
   padding-top: 100px;
   text-align: center; }
-  #result a {
+  #result h1 {
     color: #F50009;
-    text-decoration: none;
     font-size: 50px; }
+  #result a {
+    color: #3400F9;
+    font-size: 30px; }
 
 /*# sourceMappingURL=style.css.map */
