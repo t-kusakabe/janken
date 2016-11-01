@@ -6,6 +6,10 @@
   </head>
 
   <body>
+    <header>
+      <img class="title" src="/images/TECH-CAMP.svg">
+    </header>
+
     <div class="contents">
       <div id="player">
         <?php if ($_POST['icon'] == 0) { ?>
@@ -31,7 +35,7 @@
     </div>
 
     <div id="result">
-      <h1><a href="/index.php">
+      <h1>
         <?php
           if ($_POST['icon'] == $cpu_hand) {
             echo 'あいこ！';
@@ -47,7 +51,8 @@
             echo 'まけ！';
           }
         ?>
-      </a></h1>
+      </h1>
+      <a href="/index.php">もう一度</a>
     </div>
   </body>
 </html>
