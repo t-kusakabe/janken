@@ -18,9 +18,13 @@
         display: none;
         padding: 0 100px; }
   .contents #player {
-    display: inline; }
+    display: inline-block; }
   .contents #cpu {
-    display: inline; }
+    display: inline-block; }
+  .contents button {
+    padding: 25px 50px;
+    border-radius: 30px;
+    font-size: 1.5em; }
 
 #result {
   padding-top: 100px;
