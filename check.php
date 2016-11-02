@@ -18,7 +18,8 @@
           <img src="/images/tyoki.png">
         <?php } else { ?>  
           <img src="/images/pa-.png">
-        <?php } ?>
+        <?php } ?><br>
+        <span>あなた</span>
       </div>
 
       <?php $cpu_hand = rand(0, 2); ?>
@@ -30,7 +31,8 @@
           <img src="/images/tyoki.png">
         <?php } else { ?>  
           <img src="/images/pa-.png">
-        <?php } ?>
+        <?php } ?><br>
+        <span>あいて</span>
       </div>
     </div>
 
