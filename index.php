@@ -33,7 +33,7 @@
             </label>
           </div><br>
         </div>
-        <input type="submit" value="じゃんけんぽんっ！">
+        <button class="submit_button" type="submit">じゃんけんぽんっ！</button>
       </form>
     </div>
   </body>
