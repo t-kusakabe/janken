@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>じゃんけんゲーム</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
   </head>
 
   <body>
@@ -54,7 +54,7 @@
           }
         ?>
       </h1>
-      <a href="/index.php">もう一度</a>
+      <a href="/php/index.php">もう一度</a>
     </div>
   </body>
 </html>
