@@ -6,6 +6,14 @@
   </head>
 
   <body>
+    <?php
+      if (is_null($_POST['icon'])) {
+        $message = '手を選んでください';
+        header("Location: /php/index.php?message={$message}");
+      }
+    ?>
+
+
     <header>
       <img class="title" src="/images/TECH-CAMP.svg">
     </header>

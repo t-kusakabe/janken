@@ -36,5 +36,13 @@
         <button class="submit_button" type="submit">じゃんけんぽんっ！</button>
       </form>
     </div>
+
+    <p class="message">
+      <?php 
+        if (isset($_GET['message'])) {
+          echo $_GET['message'];
+        }
+      ?>
+    </p>
   </body>
 </html>
