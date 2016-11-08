@@ -21,21 +21,21 @@
     <div class="contents">
       <div id="player">
         <?php if ($_POST['icon'] == 0) { ?>
-          <img src="/images/gu-.png">
-        <?php } else if($_POST['icon'] == 1) { ?>
-          <img src="/images/tyoki.png">
+          <img src="ぐー画像の名前">
+        <?php ここに書いてね ?>
+          <img src="ちょき画像の名前">
         <?php } else { ?>  
-          <img src="/images/pa-.png">
+          <img src="ぱー画像の名前">
         <?php } ?><br>
         <span>あなた</span>
       </div>
 
-      <?php $cpu_hand = rand(0, 2); ?>
+      <?php $箱の名前 = rand(0, 2); ?>
 
       <div id="cpu">
-        <?php if ($cpu_hand == 0) { ?>
+        <?php if ($箱の名前 == 0) { ?>
           <img src="/images/gu-.png">
-        <?php } else if($cpu_hand == 1) { ?>
+        <?php } else if($箱の名前 == 1) { ?>
           <img src="/images/tyoki.png">
         <?php } else { ?>  
           <img src="/images/pa-.png">
@@ -47,13 +47,13 @@
     <div id="result">
       <h1>
         <?php
-          if ($_POST['icon'] == $cpu_hand) {
+          if ($自分の手 == $相手の手) {
             echo 'あいこ！';
           } else if 
             (
-              $_POST['icon'] == 0 && $cpu_hand == 1 
-              || $_POST['icon'] == 1 && $cpu_hand == 2 
-              || $_POST['icon'] == 2 && $cpu_hand == 0
+              $_POST['icon'] == ぐーかちょきかぱー && $cpu_hand == ぐーかちょきかぱー
+              || $_POST['icon'] == ぐーかちょきかぱー && $cpu_hand == ぐーかちょきかぱー
+              || $_POST['icon'] == ぐーかちょきかぱー && $cpu_hand == ぐーかちょきかぱー
             ) 
           {
             echo 'かち！';
